@@ -1,0 +1,154 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    font-family: Arial,sans-serif;
+}
+html body {
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: Arial,sans-serif;
+}
+
+a {
+    color: #ca0100;
+    text-decoration: none;
+    background: transparent;
+}
+
+.clear {
+    clear: both;
+}
+
+#page {
+    position:absolute;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    background: url("/img/global/wood.jpg");
+}
+
+#page h1 {
+    display: block;
+}
+
+.wrapperMargin {
+    margin: 20px;
+}
+
+.error {
+    color: red;
+}
+
+.info {
+    color: #307bff;
+}
+
+.flex{
+    flex:1;
+    display:flex;
+    margin: 5px;
+}
+
+.flex-child{
+    width:100%;
+    display:block;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#image-collection .wall img {
+    height: 180px;
+    margin: 10px;
+}
+
+#secretShutter {
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#previewStream {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#previewStream #videoCanvas {
+    opacity: 0.9;
+    vertical-align: middle;
+    margin-left: -320px;
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+}
+
+#image-collection {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+
+#image-collection .bggrey {
+    width: 100%;
+    height: 200px;
+    background-color: #444444;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#image-collection .wall {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#overlay {
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    left: 0;
+    width: 100%;
+    background-color: #dc8d99;
+    height: 400px;
+    text-align: center;
+}
+
+#overlay .smile {
+    font-size: 130px;
+    line-height: 385px;
+    color: #FFF;
+}
+
+#overlay .saving {
+    font-size: 125px;
+    line-height: 385px;
+    color: #FFF;
+}
