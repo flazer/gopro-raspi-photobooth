@@ -1,7 +1,7 @@
-GoPro RasPi Photobox
+GoPro RasPi Photobooth
 =============
 
-**GoPro RasPi Photobox: Use a GoPro connected to a Raspberry Pi as a photobox.**  
+**GoPro RasPi Photobooth: Use a GoPro connected to a Raspberry Pi as a photobooth.**  
   
 This project uses ffmpeg, quick2wire-gpio-admin, nodejs, nginx and php.  
 You will see a live preview of your GoPro in your browserwindow.  
