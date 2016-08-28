@@ -16,7 +16,8 @@ Add a Pulled-Up Button to RasPi's pin 7 (GPIO4) to use it as remote shutter.
 * install nginx, php5-fpm, php5-gd
 * change ip in web/config/system.conf.php to RasPi's ip (stream, socket)  
   
-  
+For more information (how to build/compile this photobooth) visit:
+https://flazer.com/blog/13/photobooth-gopro-raspberry-pi
 
 Thanks to [motammi](https://github.com/motammi) for cleaning up my messy nodeJs.
   
