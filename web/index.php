@@ -43,7 +43,7 @@ $config = require_once('config/system.conf.php');
 
                 <div id="overlay" class="hidden">
                     <h1 class="smile hidden"></h1>
-                    <h1 class="saving hidden">Bild wird gespeichert.</h1>
+                    <h1 class="saving hidden">Saving image.</h1>
                     <input type="hidden" class="shutterTexts" value ="<?=implode('|', $config['shutterTexts'])?>"/>
                 </div>
             </div>
